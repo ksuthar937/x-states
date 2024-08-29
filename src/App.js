@@ -90,10 +90,9 @@ function App() {
       </div>
       {city && (
         <h2>
-          You Selected <span className="city">{city},</span>{" "}
-          <span className="state">
-            {state},{country}
-          </span>
+          You Selected <span className="city">{city}, </span>
+          <span className="state">{state},</span>
+          <span className="state"> {country}</span>
         </h2>
       )}
     </main>
