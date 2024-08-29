@@ -90,7 +90,7 @@ function App() {
       </div>
       {city && (
         <h2>
-          You Selected {city}, {state}, {country}
+          You selected {city}, {state}, {country}
         </h2>
       )}
     </main>
